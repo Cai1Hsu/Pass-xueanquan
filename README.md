@@ -19,6 +19,15 @@ try {
     document.getElementById("input_button").click();
 } catch (error) {}
 ```
+### 专题活动(活动二问卷)
+```
+try {
+    var radios = document.getElementsByTagName("input");
+    for (let i = 0; i < radios.length; i++) {
+        radios[i].click();
+    }
+} catch (error) {}
+```
 
 ### 专题活动(互动视频)
 ```js
